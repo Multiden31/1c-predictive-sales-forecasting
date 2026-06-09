@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="a805f3a2-4f4d-4c46-8f03-4145b7524c8e">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БазовыеЕдиницыИзмерения" category="Object">
+				<xr:TypeId>06923f8e-bcc8-40d4-b428-521b902a57d6</xr:TypeId>
+				<xr:ValueId>f543b15f-940a-414d-9212-10681bbcab5d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БазовыеЕдиницыИзмерения" category="Ref">
+				<xr:TypeId>f9d14f4e-fcef-4f11-9b6c-c8ce029b29c7</xr:TypeId>
+				<xr:ValueId>12530bbd-9214-4b5d-830a-f2bbdc1d17f7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БазовыеЕдиницыИзмерения" category="Selection">
+				<xr:TypeId>77b7edf3-8217-4678-b80f-119071995f0c</xr:TypeId>
+				<xr:ValueId>555101f6-e018-4c64-a428-d6c2e49b838e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БазовыеЕдиницыИзмерения" category="List">
+				<xr:TypeId>7e029c48-149d-4c1c-a81f-4ca57f95f864</xr:TypeId>
+				<xr:ValueId>fc40effa-2cd3-476b-925b-2e1149ca4be8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БазовыеЕдиницыИзмерения" category="Manager">
+				<xr:TypeId>bedc212c-8755-477f-9546-47e42b3456eb</xr:TypeId>
+				<xr:ValueId>0dc2ba6d-5deb-4156-b574-aae870c1b18b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>БазовыеЕдиницыИзмерения</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="100">
+			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="101"/>
+			<ChildItems>
+				<InputField name="ДатаПрогноза" id="92">
+					<DataPath>Объект.ДатаПрогноза</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДатаПрогнозаКонтекстноеМеню" id="93"/>
+					<ExtendedTooltip name="ДатаПрогнозаРасширеннаяПодсказка" id="94"/>
+				</InputField>
+				<InputField name="ПериодАнализа" id="96">
+					<DataPath>Объект.ПериодАнализа</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПериодАнализаКонтекстноеМеню" id="97"/>
+					<ExtendedTooltip name="ПериодАнализаРасширеннаяПодсказка" id="98"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа2" id="132">
+			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="133"/>
+			<ChildItems>
+				<InputField name="Магазин" id="46">
+					<DataPath>Объект.Магазин</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="МагазинКонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="МагазинРасширеннаяПодсказка" id="48"/>
+				</InputField>
+				<InputField name="Склад" id="128">
+					<DataPath>Объект.Склад</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СкладКонтекстноеМеню" id="129"/>
+					<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="130"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="Группа4" id="165">
+			<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="166"/>
+			<ChildItems>
+				<Page name="РасчётПрогноза" id="163">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расчёт прогноза</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расчёт прогноза</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ExtendedTooltip name="РасчётПрогнозаРасширеннаяПодсказка" id="164"/>
+					<ChildItems>
+						<Table name="ТаблицаПрогноза" id="51">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ТаблицаПрогноза</DataPath>
+							<CommandSet>
+								<ExcludedCommand>Add</ExcludedCommand>
+							</CommandSet>
+							<ShowCommandBar>auto</ShowCommandBar>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ТаблицаПрогнозаКонтекстноеМеню" id="52"/>
+							<AutoCommandBar name="ТаблицаПрогнозаКоманднаяПанель" id="53">
+								<ChildItems>
+									<Button name="Рассчитать" id="114">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.Рассчитать</CommandName>
+										<ExtendedTooltip name="РассчитатьРасширеннаяПодсказка" id="115"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ТаблицаПрогнозаРасширеннаяПодсказка" id="54"/>
+							<SearchStringAddition name="ТаблицаПрогнозаСтрокаПоиска" id="55">
+								<AdditionSource>
+									<Item>ТаблицаПрогноза</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТаблицаПрогнозаСтрокаПоискаКонтекстноеМеню" id="56"/>
+								<ExtendedTooltip name="ТаблицаПрогнозаСтрокаПоискаРасширеннаяПодсказка" id="57"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ТаблицаПрогнозаСостояниеПросмотра" id="58">
+								<AdditionSource>
+									<Item>ТаблицаПрогноза</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТаблицаПрогнозаСостояниеПросмотраКонтекстноеМеню" id="59"/>
+								<ExtendedTooltip name="ТаблицаПрогнозаСостояниеПросмотраРасширеннаяПодсказка" id="60"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ТаблицаПрогнозаУправлениеПоиском" id="61">
+								<AdditionSource>
+									<Item>ТаблицаПрогноза</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ТаблицаПрогнозаУправлениеПоискомКонтекстноеМеню" id="62"/>
+								<ExtendedTooltip name="ТаблицаПрогнозаУправлениеПоискомРасширеннаяПодсказка" id="63"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ТаблицаПрогнозаНомерСтроки" id="72">
+									<DataPath>Объект.ТаблицаПрогноза.LineNumber</DataPath>
+									<Enabled>false</Enabled>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ContextMenu name="ТаблицаПрогнозаНомерСтрокиКонтекстноеМеню" id="73"/>
+									<ExtendedTooltip name="ТаблицаПрогнозаНомерСтрокиРасширеннаяПодсказка" id="74"/>
+								</LabelField>
+								<InputField name="ТаблицаПрогнозаНоменклатура" id="76">
+									<DataPath>Объект.ТаблицаПрогноза.Номенклатура</DataPath>
+									<Enabled>false</Enabled>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТаблицаПрогнозаНоменклатураКонтекстноеМеню" id="77"/>
+									<ExtendedTooltip name="ТаблицаПрогнозаНоменклатураРасширеннаяПодсказка" id="78"/>
+								</InputField>
+								<InputField name="ТаблицаПрогнозаСреднийПрогноз" id="80">
+									<DataPath>Объект.ТаблицаПрогноза.СреднийПрогноз</DataPath>
+									<Enabled>false</Enabled>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТаблицаПрогнозаСреднийПрогнозКонтекстноеМеню" id="81"/>
+									<ExtendedTooltip name="ТаблицаПрогнозаСреднийПрогнозРасширеннаяПодсказка" id="82"/>
+								</InputField>
+								<InputField name="ТаблицаПрогнозаСобытийныйКоэффициент" id="84">
+									<DataPath>Объект.ТаблицаПрогноза.СобытийныйКоэффициент</DataPath>
+									<Enabled>false</Enabled>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТаблицаПрогнозаСобытийныйКоэффициентКонтекстноеМеню" id="85"/>
+									<ExtendedTooltip name="ТаблицаПрогнозаСобытийныйКоэффициентРасширеннаяПодсказка" id="86"/>
+								</InputField>
+								<InputField name="ТаблицаПрогнозаИтого" id="88">
+									<DataPath>Объект.ТаблицаПрогноза.Итого</DataPath>
+									<Enabled>false</Enabled>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТаблицаПрогнозаИтогоКонтекстноеМеню" id="89"/>
+									<ExtendedTooltip name="ТаблицаПрогнозаИтогоРасширеннаяПодсказка" id="90"/>
+								</InputField>
+								<InputField name="ТаблицаПрогнозаИзмерение" id="202">
+									<DataPath>Объект.ТаблицаПрогноза.ЕдиницаИзмерения</DataPath>
+									<Enabled>false</Enabled>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТаблицаПрогнозаИзмерениеКонтекстноеМеню" id="203"/>
+									<ExtendedTooltip name="ТаблицаПрогнозаИзмерениеРасширеннаяПодсказка" id="204"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+						<ChartField name="Диаграмма" id="175">
+							<DataPath>Объект.ДиаграммаПрогноза</DataPath>
+							<ContextMenu name="ДиаграммаКонтекстноеМеню" id="176"/>
+							<ExtendedTooltip name="ДиаграммаРасширеннаяПодсказка" id="177"/>
+						</ChartField>
+					</ChildItems>
+				</Page>
+				<Page name="РекомендацииКЗакупу" id="167">
+					<Enabled>false</Enabled>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Рекомендации к закупу</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Рекомендации к закупу</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="РекомендацииКЗакупуРасширеннаяПодсказка" id="168"/>
+					<ChildItems>
+						<Table name="РекомендацииКЗакупкам" id="134">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.РекомендацииКЗакупкам</DataPath>
+							<CommandSet>
+								<ExcludedCommand>Add</ExcludedCommand>
+							</CommandSet>
+							<ShowCommandBar>auto</ShowCommandBar>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="РекомендацииКЗакупкамКонтекстноеМеню" id="135"/>
+							<AutoCommandBar name="РекомендацииКЗакупкамКоманднаяПанель" id="136">
+								<ChildItems>
+									<Button name="РекомендацииКЗакупкамСформироватьРекомендации" id="173">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.СформироватьРекомендации</CommandName>
+										<ExtendedTooltip name="РекомендацииКЗакупкамСформироватьРекомендацииРасширеннаяПодсказка" id="174"/>
+									</Button>
+									<Button name="РекомендацииКЗакупкамПечать" id="179">
+										<Type>CommandBarButton</Type>
+										<Enabled>false</Enabled>
+										<CommandName>Form.Command.Печать</CommandName>
+										<ExtendedTooltip name="РекомендацииКЗакупкамПечатьРасширеннаяПодсказка" id="180"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="РекомендацииКЗакупкамРасширеннаяПодсказка" id="137"/>
+							<SearchStringAddition name="РекомендацииКЗакупкамСтрокаПоиска" id="138">
+								<AdditionSource>
+									<Item>РекомендацииКЗакупкам</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РекомендацииКЗакупкамСтрокаПоискаКонтекстноеМеню" id="139"/>
+								<ExtendedTooltip name="РекомендацииКЗакупкамСтрокаПоискаРасширеннаяПодсказка" id="140"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="РекомендацииКЗакупкамСостояниеПросмотра" id="141">
+								<AdditionSource>
+									<Item>РекомендацииКЗакупкам</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РекомендацииКЗакупкамСостояниеПросмотраКонтекстноеМеню" id="142"/>
+								<ExtendedTooltip name="РекомендацииКЗакупкамСостояниеПросмотраРасширеннаяПодсказка" id="143"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="РекомендацииКЗакупкамУправлениеПоиском" id="144">
+								<AdditionSource>
+									<Item>РекомендацииКЗакупкам</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="РекомендацииКЗакупкамУправлениеПоискомКонтекстноеМеню" id="145"/>
+								<ExtendedTooltip name="РекомендацииКЗакупкамУправлениеПоискомРасширеннаяПодсказка" id="146"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="РекомендацииКЗакупкамНомерСтроки" id="155">
+									<DataPath>Объект.РекомендацииКЗакупкам.LineNumber</DataPath>
+									<Enabled>false</Enabled>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ContextMenu name="РекомендацииКЗакупкамНомерСтрокиКонтекстноеМеню" id="156"/>
+									<ExtendedTooltip name="РекомендацииКЗакупкамНомерСтрокиРасширеннаяПодсказка" id="157"/>
+								</LabelField>
+								<InputField name="РекомендацииКЗакупкамНоменклатура" id="159">
+									<DataPath>Объект.РекомендацииКЗакупкам.Номенклатура</DataPath>
+									<Enabled>false</Enabled>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="РекомендацииКЗакупкамНоменклатураКонтекстноеМеню" id="160"/>
+									<ExtendedTooltip name="РекомендацииКЗакупкамНоменклатураРасширеннаяПодсказка" id="161"/>
+								</InputField>
+								<InputField name="РекомендацииКЗакупкамРекомендуемоеКоличествоКЗакупу" id="169">
+									<DataPath>Объект.РекомендацииКЗакупкам.Количество</DataPath>
+									<Enabled>false</Enabled>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="РекомендацииКЗакупкамРекомендуемоеКоличествоКЗакупуКонтекстноеМеню" id="170"/>
+									<ExtendedTooltip name="РекомендацииКЗакупкамРекомендуемоеКоличествоКЗакупуРасширеннаяПодсказка" id="171"/>
+								</InputField>
+								<InputField name="РекомендацииКЗакупкамЕдиницаИзмерения" id="228">
+									<DataPath>Объект.РекомендацииКЗакупкам.ЕдиницаИзмерения</DataPath>
+									<Enabled>false</Enabled>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="РекомендацииКЗакупкамЕдиницаИзмеренияКонтекстноеМеню" id="229"/>
+									<ExtendedTooltip name="РекомендацииКЗакупкамЕдиницаИзмеренияРасширеннаяПодсказка" id="230"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ПСР_ПрогнозПродаж</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Рассчитать" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассчитать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассчитать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Рассчитать</Action>
+		</Command>
+		<Command name="СформироватьРекомендации" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать рекомендации</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать рекомендации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СформироватьРекомендации</Action>
+		</Command>
+		<Command name="Печать" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Печать</Action>
+		</Command>
+	</Commands>
+</Form>

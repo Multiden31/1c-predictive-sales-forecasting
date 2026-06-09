@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
+	<ConfigVersions>
+		<Metadata name="AccumulationRegister.Продажи" id="77267956-9141-4795-b714-266630b2ebe5" configVersion="1cfec87cfdfed6b6cfcd11c85af2b2e31bb4975d">
+			<Metadata name="AccumulationRegister.Продажи.Dimension.Номенклатура" id="11453f4e-208e-4688-aec3-1d28bedcab1f"/>
+			<Metadata name="AccumulationRegister.Продажи.Dimension.Склад" id="133ec99f-40db-41d8-b79d-14d6dd72159e"/>
+			<Metadata name="AccumulationRegister.Продажи.Resource.Количество" id="14909e19-1332-41d1-8ac0-15359940cdaf"/>
+			<Metadata name="AccumulationRegister.Продажи.Dimension.Магазин" id="3066cc1e-e6a4-4122-8581-c5bcab035f80"/>
+		</Metadata>
+		<Metadata name="Catalog.БазовыеЕдиницыИзмерения" id="a805f3a2-4f4d-4c46-8f03-4145b7524c8e" configVersion="ff7da62ae1e446bb1065de6374f1472fd5b014ae"/>
+		<Metadata name="Catalog.Магазины" id="89caaa9f-63da-43f7-af0b-60edb2f42cfc" configVersion="5cffe1c57bbbba6e1e870fd18920cb62f5701568"/>
+		<Metadata name="Catalog.Номенклатура" id="9a1cbde7-e005-4369-bd5d-e81e54850e95" configVersion="1a63d2a456e377d9197110e9545cfd01f4fcf1e9">
+			<Metadata name="Catalog.Номенклатура.Attribute.ЕдиницаИзмерения" id="eea308f8-77ce-4abd-b4c1-33807373696e"/>
+		</Metadata>
+		<Metadata name="Catalog.Склады" id="e967d498-52e1-4690-94d3-42934edf5d9a" configVersion="b49609c66096297337ae0a8945612e5e0ead6d71"/>
+		<Metadata name="CommonModule.Черновик" id="72b54407-3c28-404e-9df7-fd144457468f" configVersion="6ae033f5899e0a838741551fbe282a8b6d79c130"/>
+		<Metadata name="CommonModule.Черновик.Module" id="72b54407-3c28-404e-9df7-fd144457468f.0" configVersion="c76aaa75e4563428cd2e52b72f2727ac094e37fa"/>
+		<Metadata name="CommonPicture.ПСР_ИзображениеПодсистемы" id="3ff44a9f-e653-44b0-9cf5-d3923ae1f45f" configVersion="13871f6086f255d2a999a79ca395646fa2b3e17a"/>
+		<Metadata name="CommonPicture.ПСР_ИзображениеПодсистемы.Picture" id="3ff44a9f-e653-44b0-9cf5-d3923ae1f45f.0" configVersion="95bfbf983973b0c8c5ca0e7d753abf7a2930226b"/>
+		<Metadata name="Configuration.ПрогнозСпросаРесторан" id="39dafe8e-29df-40d7-aa0d-a388572383fa" configVersion="77de47add7435d33a69b9e29801f41cbe37676a0"/>
+		<Metadata name="DataProcessor.ПСР_ПрогнозПродаж" id="401493f8-c500-4cfe-b887-7bb39e1d90a8" configVersion="c772a2076461a9fc78a5f08cff9c2479457f4b2a">
+			<Metadata name="DataProcessor.ПСР_ПрогнозПродаж.TabularSection.РекомендацииКЗакупкам.Attribute.Количество" id="0191dd64-49b8-4639-a755-869e9d1a9b24"/>
+			<Metadata name="DataProcessor.ПСР_ПрогнозПродаж.Attribute.ДатаПрогноза" id="15859022-fdf5-4eef-a552-6731652f73b2"/>
+			<Metadata name="DataProcessor.ПСР_ПрогнозПродаж.Attribute.ПериодАнализа" id="22d07b6e-4f85-416a-8bd3-f06bd5e7edbf"/>
+			<Metadata name="DataProcessor.ПСР_ПрогнозПродаж.Attribute.ДиаграммаПрогноза" id="26e883e5-4d5e-4e70-805d-bd71572ee345"/>
+			<Metadata name="DataProcessor.ПСР_ПрогнозПродаж.TabularSection.ТаблицаПрогноза.Attribute.Номенклатура" id="2d5ffb5f-6bdc-42f3-8a57-de6c94b789e3"/>
+			<Metadata name="DataProcessor.ПСР_ПрогнозПродаж.TabularSection.РекомендацииКЗакупкам" id="44808fc2-7b1d-42f9-a43e-efbc76137090"/>
+			<Metadata name="DataProcessor.ПСР_ПрогнозПродаж.TabularSection.ТаблицаПрогноза.Attribute.Итого" id="4bb63456-431a-4ed0-855f-98212e546801"/>
+			<Metadata name="DataProcessor.ПСР_ПрогнозПродаж.TabularSection.ТаблицаПрогноза" id="5828957c-015d-48fa-9e0f-d5ef27226847"/>
+			<Metadata name="DataProcessor.ПСР_ПрогнозПродаж.TabularSection.ТаблицаПрогноза.Attribute.ЕдиницаИзмерения" id="5b0b2ded-df3d-4279-bcca-7ca183443b8c"/>
+			<Metadata name="DataProcessor.ПСР_ПрогнозПродаж.TabularSection.ТаблицаПрогноза.Attribute.СреднийПрогноз" id="5bcd13b9-ef68-4206-a399-ad05d45c7419"/>
+			<Metadata name="DataProcessor.ПСР_ПрогнозПродаж.Attribute.Магазин" id="5caa53a6-6203-48a3-b107-2376828dfc73"/>
+			<Metadata name="DataProcessor.ПСР_ПрогнозПродаж.Attribute.Склад" id="65f4ba09-a96f-4e5e-b54c-9fcdc382ce8a"/>
+			<Metadata name="DataProcessor.ПСР_ПрогнозПродаж.TabularSection.ТаблицаПрогноза.Attribute.СобытийныйКоэффициент" id="7e20ccc3-c58f-44a8-aab4-6548f5c32fe2"/>
+			<Metadata name="DataProcessor.ПСР_ПрогнозПродаж.TabularSection.РекомендацииКЗакупкам.Attribute.Номенклатура" id="b5d76765-330a-4fc2-8f0c-2fcfcbe19114"/>
+			<Metadata name="DataProcessor.ПСР_ПрогнозПродаж.TabularSection.РекомендацииКЗакупкам.Attribute.ЕдиницаИзмерения" id="ef5151b3-95ca-4a7a-8f02-612bb6039e8a"/>
+		</Metadata>
+		<Metadata name="DataProcessor.ПСР_ПрогнозПродаж.Form.Форма" id="c1fd03f5-6fdd-4571-81c7-566cb649a7d1" configVersion="731a51aa689b11a22123262b0a51c35fcc24a739"/>
+		<Metadata name="DataProcessor.ПСР_ПрогнозПродаж.Form.Форма.Form" id="c1fd03f5-6fdd-4571-81c7-566cb649a7d1.0" configVersion="2cd662e2b9625588268fdecae20e0b1364958314"/>
+		<Metadata name="DataProcessor.ПСР_ПрогнозПродаж.Template.МакетЗакупки" id="7312cbc1-6573-4209-b1de-bdca3fae828c" configVersion="84dfe65b8d129b52023157dde9b75c86da05b192"/>
+		<Metadata name="DataProcessor.ПСР_ПрогнозПродаж.Template.МакетЗакупки.Template" id="7312cbc1-6573-4209-b1de-bdca3fae828c.0" configVersion="81b794a1f558e1e58b6c0397304aed66f2b4c97b"/>
+		<Metadata name="InformationRegister.КомплектующиеНоменклатуры" id="f529ffd6-2fe1-454e-9cac-8066df70c5bb" configVersion="b9dc9cb7f4aa94394c023c07f481aced89d1244a"/>
+		<Metadata name="InformationRegister.ПСР_КоэффициентыСобытий" id="e5a0821b-85df-4f1e-98af-b77721017e4c" configVersion="e51d5599d10fb95ff4674ab4279a668a51b57a54">
+			<Metadata name="InformationRegister.ПСР_КоэффициентыСобытий.Dimension.Магазин" id="58483a2b-5eab-4e03-8c91-d8a74adc42b4"/>
+			<Metadata name="InformationRegister.ПСР_КоэффициентыСобытий.Attribute.Событие" id="85443a9b-9f70-4d7e-8a35-50fa85087abe"/>
+			<Metadata name="InformationRegister.ПСР_КоэффициентыСобытий.Resource.Коэффициент" id="9f91f0c3-993f-4ee1-a153-4cb7ba9db5c8"/>
+			<Metadata name="InformationRegister.ПСР_КоэффициентыСобытий.Dimension.Склад" id="cb322df6-e255-40e6-9761-db4254c5cc8a"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="bdb7c995-7c44-40ac-8273-207c315f543d" configVersion="c6ceeac61b30419ff3b40a8e1b5a3cbf9d340bad"/>
+		<Metadata name="Role.ПСР_ОсновнаяРоль" id="c2afbf91-4bc9-44e5-9a54-8be192158461" configVersion="543e9ccfacf964f20d5f7febfce5db297bddc88c"/>
+		<Metadata name="Role.ПСР_ОсновнаяРоль.Rights" id="c2afbf91-4bc9-44e5-9a54-8be192158461.0" configVersion="5b0152daef1d9be05a5cf69e6207172f34aedfd9"/>
+		<Metadata name="Subsystem.ПСР_Прогнозирование" id="a5bc2e57-f092-4745-b2b7-6543113ebda6" configVersion="6a5fac7bd1aeafb8295a0d3392f1f9b306d84fd2"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
